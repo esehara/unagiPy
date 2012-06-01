@@ -1,0 +1,9 @@
+create sequence cloning_seq;
+
+create table urllist(
+       id primary key,
+       sitename char(255),
+       url char(255),
+       datail text,
+       display char(5)
+       )
